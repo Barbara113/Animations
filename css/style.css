@@ -1,0 +1,19 @@
+#wrapperLoading {
+  min-height: 100px;
+}
+
+#wrapperLoading::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.loading {
+  width: 35px;
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: rgb(240, 235, 235);
+  float: left;
+}
